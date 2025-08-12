@@ -67,20 +67,17 @@ Add the downloaded JAR file.
 In HotelReservationSystem.java, update:
 
 java
-Copy
-Edit
+
 private static final String url = "jdbc:mysql://localhost:3306/hotel_db";
 private static final String username = "root";
 private static final String password = "your_password";
+
 4. Run the Application
 Compile and run HotelReservationSystem.java.
 
 Follow the on-screen menu prompts.
 
 Sample Output
-markdown
-Copy
-Edit
 HOTEL MANAGEMENT SYSTEM
 1. Reserve a room
 2. View Reservations
@@ -89,13 +86,12 @@ HOTEL MANAGEMENT SYSTEM
 5. Delete Reservations
 0. Exit
 Choose an option:
+
 Future Enhancements
 Implement GUI using JavaFX or Swing
 
 Add authentication system for admin/reception roles
-
 Integrate room availability check before booking
-
 Generate booking confirmation receipts in PDF
 
 Author
